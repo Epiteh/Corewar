@@ -50,6 +50,7 @@ SRCS		=	./src/main.c										\
 
 SRCTEST	=		./src/utils/split.c									\
 				./src/utils/count.c									\
+				./src/utils/len_tab.c								\
 				./src/error/ceo.c									\
 				./src/parser/ceo.c									\
 				./src/parser/format.c								\
@@ -64,6 +65,8 @@ SRCTEST	=		./src/utils/split.c									\
 				./src/write/header/write.c							\
 				./src/write/instruction/write.c						\
 				./src/write/args/write.c							\
+				./src/write/args/index.c							\
+				./src/write/args/labels.c							\
 				./src/write/ceo.c									\
 				./src/write/utils/reverse.c							\
 				./src/write/utils/big_endian.c						\
@@ -83,7 +86,7 @@ SRCTEST	=		./src/utils/split.c									\
 				./src/parser/line/body/error/labels_list/remove.c	\
 				./src/parser/line/body/error/labels_list/browse.c	\
 				./src/parser/line/body/error/labels_list/check.c	\
-				./src/parser/line/body/error/separator.c		\
+				./src/parser/line/body/error/separator.c			\
 
 TEST = 	../tests/asm_tests/is_minemoric.c	\
 		../tests/asm_tests/is_label.c	\

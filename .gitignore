@@ -1,0 +1,11 @@
+*.s
+.bash_history
+*.vscode
+*.cor
+*.a
+*.hodos
+*.tilu
+*.s
+/errors
+coding-style-reports.log
+/backup
